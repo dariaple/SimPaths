@@ -72,7 +72,7 @@ global estimation_sample "${path}\initial_populations\data\ukhls_pooled_ipop.dta
 * Pooled dataset with predicted wages after Heckman   
 global estimation_sample2 "${path}\initial_populations\data\UKHLS_pooled_ipop2.dta"
 
-* Directory containing external data used for the estimates (e.g. fertility rates, wage growth) 
+* Directory containing external data used +for the estimates (e.g. fertility rates, wage growth) 
 global dir_external_data "${dir_work}/external_data"
 
 * Directory to save data for internal validation 
@@ -92,7 +92,7 @@ do "${path}\00_master_conditions.do"
 Two additional do-files are called from each of these do-files
 - variable_update.do refactors variable names 
 - programs.do contains Stata programs to process the output of regressions and create Excel files with results used by Simpaths 
- */
+*/
 
 do "${dir_do}/01_reg_education.do"
 
@@ -114,7 +114,9 @@ do "${dir_do}/09_reg_income.do"
 
 do "${dir_do}/10_reg_socialcare.do" 
 
+
 /*Note that the do-files below are not yet refactored  */
+
 do "${dir_do}/11_reg_financial_distress.do"
 
 do "${dir_do}/12_reg_health_mental.do"
