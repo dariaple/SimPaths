@@ -92,7 +92,7 @@ do "${path}\00_master_conditions.do"
 Two additional do-files are called from each of these do-files
 - variable_update.do refactors variable names 
 - programs.do contains Stata programs to process the output of regressions and create Excel files with results used by Simpaths 
- */
+*/
 
 do "${dir_do}/01_reg_education.do"
 
@@ -114,7 +114,9 @@ do "${dir_do}/09_reg_income.do"
 
 do "${dir_do}/10_reg_socialcare.do" 
 
+
 /*Note that the do-files below are not yet refactored  */
+
 do "${dir_do}/11_reg_financial_distress.do"
 
 do "${dir_do}/12_reg_health_mental.do"
