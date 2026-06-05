@@ -72,7 +72,7 @@ global estimation_sample "${path}\initial_populations\data\ukhls_pooled_ipop.dta
 * Pooled dataset with predicted wages after Heckman   
 global estimation_sample2 "${path}\initial_populations\data\UKHLS_pooled_ipop2.dta"
 
-* Directory containing external data used +for the estimates (e.g. fertility rates, wage growth) 
+* Directory containing external data used for the estimates (e.g. fertility rates, wage growth) 
 global dir_external_data "${dir_work}/external_data"
 
 * Directory to save data for internal validation 

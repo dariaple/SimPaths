@@ -426,9 +426,9 @@ probit careProvidedFlag ///
     careProvidedFlagL1 ///
 	careNeedFlag careReceivedFlag ///
     demMaleFlag ///
-    careReceivedPartnerFlag careMarketFormalPartner careMarketInformalPartner careMarketMixedPsrtner ///
+    careReceivedPartnerFlag careMarketFormalPartner careMarketInformalPartner careMarketMixedPartner ///
     healthSelfRatedPoor healthSelfRatedFair healthSelfRatedGood healthSelfRatedVeryGood  ///
-    healthPartnerSelfRatedFair healthPartnerSelfRatedGood healthPartnerSelfRatedVeryGood healthPartnerSelfRatedExcel ///
+    healthPartnerSelfRatedFair healthPartnerSelfRatedGood healthPartnerSelfRatedVeryGood healthPartnerSelfRatedExcellent ///
     eduHighestC4High eduHighestC4Medium  ///	
     yHhQuintilesMonthC5Q2 yHhQuintilesMonthC5Q3 yHhQuintilesMonthC5Q4 yHhQuintilesMonthC5Q5 ///	
     demYear2020 demYear2021 $regions  $ethnicity /// 
@@ -518,9 +518,9 @@ reg careHrsProvidedWeekIhs ///
 	demMaleFlag ///
 	demAge20to24 demAge25to29 demAge30to34 demAge35to39 demAge40to44 demAge45to49 demAge50to54 ///
 	demAge55to59 demAge60to64 demAge65to69 demAge70to74 demAge75to79 demAge80to84 demAge85plus ///
-    careReceivedPartnerFlag careMarketFormalPartner careMarketInformalPartner careMarketMixedPsrtner ///
+    careReceivedPartnerFlag careMarketFormalPartner careMarketInformalPartner careMarketMixedPartner ///
 	healthSelfRatedPoor healthSelfRatedFair healthSelfRatedGood healthSelfRatedVeryGood  ///
-	healthPartnerSelfRatedFair healthPartnerSelfRatedGood healthPartnerSelfRatedVeryGood healthPartnerSelfRatedExcel ///
+	healthPartnerSelfRatedFair healthPartnerSelfRatedGood healthPartnerSelfRatedVeryGood healthPartnerSelfRatedExcellent ///
 	eduHighestC4High eduHighestC4Medium  ///	
 	yHhQuintilesMonthC5Q2 yHhQuintilesMonthC5Q3 yHhQuintilesMonthC5Q4 yHhQuintilesMonthC5Q5 ///	
 	demYear2020 demYear2021 $regions  $ethnicity /// 

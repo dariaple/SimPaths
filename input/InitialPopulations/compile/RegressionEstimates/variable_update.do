@@ -590,14 +590,14 @@ gen healthPartnerSelfRatedPoor      = (dhesp == 1) if !missing(dhesp)
 gen healthPartnerSelfRatedFair      = (dhesp == 2) if !missing(dhesp)
 gen healthPartnerSelfRatedGood      = (dhesp == 3) if !missing(dhesp)
 gen healthPartnerSelfRatedVeryGood  = (dhesp == 4) if !missing(dhesp)
-gen healthPartnerSelfRatedExcel = (dhesp == 5) if !missing(dhesp)
-
+gen healthPartnerSelfRatedExcellent = (dhesp == 5) if !missing(dhesp)
+/*
 gen healthPartnerSelfRatedPoorL1      = (L1.dhesp == 1) if !missing(L1.dhesp)
 gen healthPartnerSelfRatedFairL1      = (L1.dhesp == 2) if !missing(L1.dhesp)
 gen healthPartnerSelfRatedGoodL1      = (L1.dhesp == 3) if !missing(L1.dhesp)
 gen healthPartnerSelfRatedVeryGoodL1  = (L1.dhesp == 4) if !missing(L1.dhesp)
 gen healthPartnerSelfRatedExcelL1 = (L1.dhesp == 5) if !missing(L1.dhesp)
-
+*/
 
 /*--------------------------------------------------
 Continuous health measures
@@ -1199,7 +1199,7 @@ gen careNeedPartnerFlag = NeedCarePartner
 gen careReceivedPartnerFlag = ReceiveCarePartner 
 
 gen careMarketInformalPartner = CareMarketInformalPartner
-gen careMarketMixedPsrtner = CareMarketMixedPartner
+gen careMarketMixedPartner = CareMarketMixedPartner
 gen careMarketFormalPartner = CareMarketFormalPartner 
 
 gen careHrsProvidedWeekIhs = HrsProvidedInformalIHS 
